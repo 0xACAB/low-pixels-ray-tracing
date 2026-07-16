@@ -1,0 +1,30 @@
+{
+    "experiments": {
+        "title": "Эксперименты",
+        "subtitle": "WebGL и WebGPU",
+        "description": "",
+        "items": [
+            {
+                "name": "WebGL",
+                "description": "WebGL (Web-based Graphics Library) — кроссплатформенный API для отображения 3D-графики в браузере, разрабатываемый некоммерческой организацией Khronos Group.",
+                "icon": "/assets/images/WebGL_Logo.svg",
+                "href": "/canvas/webgl",
+                "img": "/assets/images/extended_webgl.png"
+            },
+            {
+                "name": "WebGPU",
+                "description": "WebGPU — это рабочее имя будущего веб-стандарта и JavaScript API для аппаратно-ускоренной графики и вычислений, нацеленное предоставить «новейшую 3D графику и вычислительные возможности». Разработан рабочей группой W3C «GPU for the Web» совместно с инженерами из Apple, Mozilla, Microsoft, Google и других компаний",
+                "icon": "/assets/images/webgpu.svg",
+                "href": "/canvas/webgpu",
+                "img": "/assets/images/sphere_webgpu.png"
+            }
+        ]
+    },
+    "about": {
+        "socialMedia": {
+            "github": "https://github.com/0xACAB",
+            "linkedin": "https://www.linkedin.com/in/xtranscendence/",
+            "telegram": "https://t.me/xTranscendence"
+        }
+    }
+}
