@@ -1,4 +1,4 @@
 export interface resolution {
-    width: number;
-    height: number;
+  width: number;
+  height: number;
 }
