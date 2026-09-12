@@ -1,17 +1,17 @@
-## Project with ray tracing optimization by reducing the number of pixels displayed in the texture.
+# low-pixels-ray-tracing
 
-### Install modules
+Ray tracing в браузере с оптимизацией: сцена считается в низком разрешении и растягивается.
 
+## Запуск
+
+```bash
 npm install
-
-### Run
-
 npm run dev
+```
 
-## Gifs from pet
+Открой [http://localhost:3000](http://localhost:3000).
 
-![sphere_webpgu.gif](public/assets/images/gifs/sphere_webpgu.gif)
+## Демо
 
-![triangle_webgpu.gif](public/assets/images/gifs/triangle_webgpu.gif)
-
-![basic_webgl.gif](public/assets/images/gifs/basic_webgl.gif)
+- [/canvas/webgl](http://localhost:3000/canvas/webgl) — базовая, расширенная, нативная сцены, сфера, треугольник
+- [/canvas/webgpu](http://localhost:3000/canvas/webgpu) — сфера и треугольник (нужен браузер с WebGPU)
