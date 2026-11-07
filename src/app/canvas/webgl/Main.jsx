@@ -2,16 +2,16 @@
 import { Tabs } from "antd";
 import Sphere from "./Scenes/RayCasting/Sphere/Sphere";
 import Triangle from "./Scenes/RayCasting/Triangle/Triangle";
-import Basic from "./Scenes/RayCasting/Main/Main";
+//import Basic from "./Scenes/RayCasting/Main/Main";
 import Extended from "./Scenes/RayCasting/Extended/Extended";
-import Native from "./Scenes/RayCasting/Native/Native";
+//import Native from "./Scenes/RayCasting/Native/Native";
 
 const items = [
-  { Children: Basic, label: "Базовая сцена" },
-  { Children: Extended, label: "Расширенная базовая сцена" },
-  { Children: Native, label: "Нативная базовая сцена" },
+  /*{ Children: Native, label: "Нативная базовая сцена" },
+  { Children: Basic, label: "Базовая сцена" },*/
   { Children: Sphere, label: "Сцена со сферой" },
   { Children: Triangle, label: "Сцена с треугольником" },
+  { Children: Extended, label: "Расширенная базовая сцена" },
 ].map(({ Children, label }, i) => {
   return {
     key: String(i + 1),

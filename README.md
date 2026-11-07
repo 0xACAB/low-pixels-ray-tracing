@@ -13,5 +13,5 @@ npm run dev
 
 ## Демо
 
-- [/canvas/webgl](http://localhost:3000/canvas/webgl) — базовая, расширенная, нативная сцены, сфера, треугольник
-- [/canvas/webgpu](http://localhost:3000/canvas/webgpu) — сфера и треугольник (нужен браузер с WebGPU)
+- [/canvas/webgl](https://low-pixels-ray-tracing.vercel.app/canvas/webgl/) — сфера, треугольник и расширенная сцена
+- [/canvas/webgpu](https://low-pixels-ray-tracing.vercel.app/canvas/webgpu/) — сфера и треугольник (нужен браузер с WebGPU)

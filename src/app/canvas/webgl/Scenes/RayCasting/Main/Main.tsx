@@ -17,7 +17,7 @@ const resolutions = [
   { width: 256, height: 256 },
   { width: 512, height: 512 },
 ];
-const startResolutionIndex = 3;
+const startResolutionIndex = 1;
 export default function Basic() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const pixelatingCanvasRef = useRef<HTMLCanvasElement>(null);
